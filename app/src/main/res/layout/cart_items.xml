@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.card.MaterialCardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/white2"
+    android:orientation="vertical"
+    app:cardCornerRadius="4dp"
+    app:cardUseCompatPadding="true"
+    app:cardElevation="3dp">
+
+    <RelativeLayout
+        android:id="@+id/Rlayout"
+        android:layout_width="match_parent"
+        android:layout_height="110dp"
+        android:background="@color/white">
+
+        <ImageView
+            android:id="@+id/cart_img"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_marginStart="4dp"
+            android:layout_marginTop="5dp"
+            android:src="@drawable/ic_launcher_background" />
+
+        <TextView
+            android:id="@+id/cart_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="15dp"
+            android:layout_marginTop="14dp"
+            android:layout_marginEnd="10dp"
+            android:layout_toEndOf="@+id/cart_img"
+            android:text="Warm the milk in a large heavy
+			saucepan over a medium heat,
+			stirring constantly"
+            android:textColor="@color/charcoal"
+            android:textSize="13sp" />
+
+        <TextView
+            android:id="@+id/cart_cost"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/cart_title"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="23dp"
+            android:layout_toEndOf="@+id/cart_img"
+            android:textColor="@color/charcoal"
+            android:textSize="13sp"
+            android:textStyle="bold" />
+
+
+        <ImageView
+            android:id="@+id/deleteicon"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/cart_title"
+            android:layout_alignParentEnd="true"
+            android:layout_marginTop="14dp"
+            android:layout_marginEnd="30dp"
+            android:src="@drawable/ic_baseline_delete_forever_24" />
+
+    </RelativeLayout>
+
+</com.google.android.material.card.MaterialCardView>

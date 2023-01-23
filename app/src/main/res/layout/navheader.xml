@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:gravity="bottom"
+    android:paddingTop="10dp"
+    android:clickable="true"
+    android:background="@color/white2"
+    android:layout_height="170dp">
+
+    <TextView
+        android:id="@+id/Title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="20dp"
+        android:fontFamily="sans-serif-condensed-medium"
+        android:text="Heroic Market Place"
+        android:textColor="@color/charcoal"
+        android:textSize="22sp" />
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/image"
+        android:layout_width="wrap_content"
+        android:layout_marginEnd="120dp"
+        android:layout_height="100dp"
+        android:layout_below="@+id/Title"
+        android:src="@drawable/shop" />
+
+    <TextView
+        android:id="@+id/slogan"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/image"
+        android:layout_marginStart="20dp"
+        android:fontFamily="sans-serif-condensed-light"
+        android:text="your one stop online shop"
+        android:textColor="@color/charcoal"
+        android:textSize="15sp"
+        android:textStyle="italic" />
+
+
+</RelativeLayout>

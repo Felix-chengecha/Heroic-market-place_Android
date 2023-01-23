@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.circularreveal.cardview.CircularRevealCardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="200dp"
+    android:layout_height="160dp"
+    android:background="@color/white2"
+    android:orientation="horizontal"
+    app:cardUseCompatPadding="true"
+    app:cardElevation="1dp">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/white"
+        android:id="@+id/others_rl">
+
+        <ImageView
+            android:id="@+id/prod_img"
+            android:layout_marginTop="3dp"
+            android:layout_width="130dp"
+            android:layout_height="100dp"
+            android:src="@drawable/shop" />
+
+        <TextView
+            android:id="@+id/prod_cost"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:layout_toEndOf="@+id/prod_img"
+            android:text="1000.KES"
+            android:textStyle="bold"
+            android:textColor="@color/black"
+            android:textSize="10sp" />
+
+        <TextView
+            android:id="@+id/prod_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/prod_img"
+            android:layout_marginStart="15dp"
+            android:layout_marginTop="7dp"
+            android:layout_marginBottom="7dp"
+            android:text="type"
+            android:textColor="@color/charcoal"
+            android:textSize="12sp" />
+
+    </RelativeLayout>
+
+</com.google.android.material.circularreveal.cardview.CircularRevealCardView>
