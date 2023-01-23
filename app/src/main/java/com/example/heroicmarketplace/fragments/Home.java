@@ -14,7 +14,6 @@ import androidx.appcompat.widget.Toolbar;
 import androidx.fragment.app.Fragment;
 import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
-import androidx.swiperefreshlayout.widget.SwipeRefreshLayout;
 
 import com.android.volley.AuthFailureError;
 import com.android.volley.DefaultRetryPolicy;
@@ -44,7 +43,7 @@ import com.example.heroicmarketplace.Adapters.Title_Adapter;
 import com.example.heroicmarketplace.Models.Home_model;
 import com.example.heroicmarketplace.Models.Title_model;
 
-import Network.Base_url;
+import com.example.heroicmarketplace.Network.Base_url;
 
 public class Home extends Fragment {
 

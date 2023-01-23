@@ -1,8 +1,8 @@
-package Network;
+package com.example.heroicmarketplace.Network;
 
 public class Base_url {
 
-    private static String mainUrl = "https://55c7-105-161-180-171.in.ngrok.io/";
+    private static String mainUrl = "https://82e5-105-160-123-57.in.ngrok.io/";
 
 
     public static String getallproducts() {
@@ -24,5 +24,7 @@ public class Base_url {
     public static String paynow(){
         return mainUrl + "api/payment";
     }
+
+    public static String processpay(){return  mainUrl + "api/processpay";}
 
 }

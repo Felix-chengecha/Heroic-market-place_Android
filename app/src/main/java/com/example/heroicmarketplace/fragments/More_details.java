@@ -1,10 +1,6 @@
 package com.example.heroicmarketplace.fragments;
 
-import static android.content.Context.MODE_PRIVATE;
-
 import android.annotation.SuppressLint;
-import android.app.ProgressDialog;
-import android.content.SharedPreferences;
 import android.graphics.Color;
 import android.os.Bundle;
 import android.view.LayoutInflater;
@@ -26,7 +22,6 @@ import androidx.recyclerview.widget.RecyclerView;
 import androidx.room.Room;
 
 import com.android.volley.AuthFailureError;
-import com.android.volley.DefaultRetryPolicy;
 import com.android.volley.NetworkError;
 import com.android.volley.ParseError;
 import com.android.volley.Request;
@@ -35,18 +30,14 @@ import com.android.volley.Response;
 import com.android.volley.ServerError;
 import com.android.volley.TimeoutError;
 import com.android.volley.VolleyError;
-import com.android.volley.toolbox.JsonObjectRequest;
 import com.android.volley.toolbox.StringRequest;
 import com.android.volley.toolbox.Volley;
 import com.bumptech.glide.Glide;
-import com.example.heroicmarketplace.Adapters.Home_Adapter;
 import com.example.heroicmarketplace.Cart.CartDao;
 import com.example.heroicmarketplace.Cart.CartDatabase;
 import com.example.heroicmarketplace.Cart.CartModel;
-import com.example.heroicmarketplace.Models.CartItems_model;
 import com.example.heroicmarketplace.Models.Home_model;
 import com.example.heroicmarketplace.R;
-import com.google.gson.Gson;
 
 import org.json.JSONArray;
 import org.json.JSONException;
@@ -55,11 +46,10 @@ import org.json.JSONObject;
 import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
-import java.util.Map;
 
 import com.example.heroicmarketplace.Adapters.Products_Adapter;
 
-import Network.Base_url;
+import com.example.heroicmarketplace.Network.Base_url;
 
 public class More_details extends Fragment {
     TextView category,name,desc,cost;

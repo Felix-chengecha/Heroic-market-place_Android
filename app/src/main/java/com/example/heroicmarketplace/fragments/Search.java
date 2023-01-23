@@ -18,9 +18,6 @@ import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.fragment.app.Fragment;
-import androidx.recyclerview.widget.LinearLayoutManager;
-import androidx.recyclerview.widget.RecyclerView;
-import androidx.room.util.StringUtil;
 
 import com.android.volley.AuthFailureError;
 import com.android.volley.NetworkError;
@@ -33,9 +30,7 @@ import com.android.volley.TimeoutError;
 import com.android.volley.VolleyError;
 import com.android.volley.toolbox.StringRequest;
 import com.android.volley.toolbox.Volley;
-import com.bumptech.glide.Glide;
 import com.example.heroicmarketplace.Adapters.Home_Adapter;
-import com.example.heroicmarketplace.Adapters.Products_Adapter;
 import com.example.heroicmarketplace.Models.Home_model;
 import com.example.heroicmarketplace.R;
 import com.google.android.material.textfield.TextInputLayout;
@@ -46,9 +41,8 @@ import org.json.JSONObject;
 
 import java.util.ArrayList;
 import java.util.HashMap;
-import java.util.List;
 
-import Network.Base_url;
+import com.example.heroicmarketplace.Network.Base_url;
 
 public class Search extends Fragment {
 
