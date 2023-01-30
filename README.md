@@ -8,14 +8,14 @@ register a user and add items to cart in laravel.
 -The app integrated the app with mpesa to provide an online  payment option
 
 
-# Features
+## Features
 
 -User authentication and authorization using Laravel.
 -Product listing, browsing, and search functionality.
 -Shopping cart and order management.
 -Secure payment processing using mpesa.
 
-# screens
+## screens
 
 <table>
 	  <tr>
@@ -50,22 +50,22 @@ register a user and add items to cart in laravel.
 -PHP 7+ and composer for Laravel
 
 
-## Installation
+## installation
 
 -Clone the repository.
 -Set up the Laravel backend by following the instructions in the backend directory.
 -Open the Android project in Android Studio and build the app.
 
-## Usage
+## usage
 
 -Run the Laravel backend server.
 -Install the app on an Android device or emulator.
 -Log in or create an account to start browsing and buying products.
 
-## Contributions
+## contributions
 Contributions are welcome. Please create a pull request for any changes or improvements.
 
-## License
+## license
 
 This project is licensed under the MIT license.
 
