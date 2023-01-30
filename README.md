@@ -1,22 +1,19 @@
 # Heroic market app
 
-
-This is an ecommerce mobile application for buying and selling products online, 
-built using the Volley library for Android and Laravel for the backend technology.
-I have created  API endpoints that allows one to fetch all items, items categories, 
-register a user and add items to cart.
-I have integrated the app with mpesa to provide an alternative payment option
-
+-This is an ecommerce mobile application for buying and selling products online, 
+built in java  and Laravel for the backend technology.
+-I have created  API endpoints that allows one to fetch all items, items categories, 
+register a user and add items to cart in laravel.
+-The app is using  the volley library which provides easy and fast network communication between the  Android app and the backend
+-The app integrated the app with mpesa to provide an online  payment option
 
 
 # Features
 
-Fast and efficient network communication using the Volley library.
-Secure payment processing using mpesa.
-User authentication and authorization using Laravel.
-Product listing, browsing, and search functionality.
-Shopping cart and order management.
-Admin dashboard for managing products, orders, and users.
+-User authentication and authorization using Laravel.
+-Product listing, browsing, and search functionality.
+-Shopping cart and order management.
+-Secure payment processing using mpesa.
 
 # screens
 
@@ -49,22 +46,23 @@ Admin dashboard for managing products, orders, and users.
 
 ## Requirements
 
-Android Studio
-PHP 7+ and composer for Laravel
+-Android Studio
+-PHP 7+ and composer for Laravel
 
 
 ## Installation
 
-Clone the repository.
-Set up the Laravel backend by following the instructions in the backend directory.
-Open the Android project in Android Studio and build the app.
+-Clone the repository.
+-Set up the Laravel backend by following the instructions in the backend directory.
+-Open the Android project in Android Studio and build the app.
 
 ## Usage
 
-Run the Laravel backend server.
-Install the app on an Android device or emulator.
-Log in or create an account to start browsing and buying products.
-Contributions
+-Run the Laravel backend server.
+-Install the app on an Android device or emulator.
+-Log in or create an account to start browsing and buying products.
+
+## Contributions
 Contributions are welcome. Please create a pull request for any changes or improvements.
 
 ## License
