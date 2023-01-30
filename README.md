@@ -26,9 +26,9 @@ Admin dashboard for managing products, orders, and users.
 		  <td>single category</td>
 	  </tr>
 	  <tr>
-		 <td><img src="screenshot/pic1.jpg" width=270 height=480></td>
-		 <td><img src="screenshot/pic2.jpg" width=270 height=480></td>
-		 <td><img src="screenshot/pic3.jpg" width=270 height=480></td>
+		 <td><img src="screenshots/pic1.jpg" width=270 height=480></td>
+		 <td><img src="screenshots/pic2.jpg" width=270 height=480></td>
+		 <td><img src="screenshots/pic3.jpg" width=270 height=480></td>
 	  </tr>
 	 </table>
 
@@ -40,9 +40,9 @@ Admin dashboard for managing products, orders, and users.
 		  <td>Products cart</td>
 	  </tr>
 	  <tr>
-		 <td><img src="screenshot/pic4.jpg" width=270 height=480></td>
-		 <td><img src="screenshot/pic5.jpg" width=270 height=480></td>
-		 <td><img src="screenshot/pic6.jpg" width=270 height=480></td>
+		 <td><img src="screenshots/pic4.jpg" width=270 height=480></td>
+		 <td><img src="screenshots/pic5.jpg" width=270 height=480></td>
+		 <td><img src="screenshots/pic6.jpg" width=270 height=480></td>
 	  </tr>
 	 </table>
 
@@ -51,14 +51,15 @@ Admin dashboard for managing products, orders, and users.
 Clone the repository.
 Set up the Laravel backend by following the instructions in the backend directory.
 Open the Android project in Android Studio and build the app.
-Usage
+
+#Usage
 Run the Laravel backend server.
 Install the app on an Android device or emulator.
 Log in or create an account to start browsing and buying products.
 Contributions
 Contributions are welcome. Please create a pull request for any changes or improvements.
 
-License
+#License
 This project is licensed under the MIT license.
 
 
