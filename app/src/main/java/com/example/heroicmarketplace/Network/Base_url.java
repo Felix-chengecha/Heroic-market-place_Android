@@ -2,7 +2,7 @@ package com.example.heroicmarketplace.Network;
 
 public class Base_url {
 
-    private static String mainUrl = "https://82e5-105-160-123-57.in.ngrok.io/";
+    private static String mainUrl = "https://1156-105-61-238-65.in.ngrok.io/";
 
 
     public static String getallproducts() {

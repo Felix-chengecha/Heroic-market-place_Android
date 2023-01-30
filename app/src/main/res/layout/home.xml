@@ -23,13 +23,6 @@
             android:textColor="@color/black"
             android:textSize="28sp" />
 
-        <ImageView
-            android:layout_width="50dp"
-            android:layout_height="43dp"
-            android:layout_marginStart="150dp"
-            android:src="@drawable/shop"/>
-
-
     </LinearLayout>
 
 
