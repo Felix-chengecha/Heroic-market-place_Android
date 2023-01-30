@@ -1,4 +1,4 @@
-#Heroic market app
+# Heroic market app
 
 
 This is an ecommerce mobile application for buying and selling products online, 
@@ -9,7 +9,7 @@ I have integrated the app with mpesa to provide an alternative payment option
 
 
 
-#Features
+# Features
 
 Fast and efficient network communication using the Volley library.
 Secure payment processing using mpesa.
@@ -18,7 +18,7 @@ Product listing, browsing, and search functionality.
 Shopping cart and order management.
 Admin dashboard for managing products, orders, and users.
 
-#screens
+# screens
 
 <table>
 	  <tr>
@@ -47,19 +47,19 @@ Admin dashboard for managing products, orders, and users.
 	  </tr>
 	 </table>
 
-#Requirements
+## Requirements
 
 Android Studio
 PHP 7+ and composer for Laravel
 
 
-#Installation
+## Installation
 
 Clone the repository.
 Set up the Laravel backend by following the instructions in the backend directory.
 Open the Android project in Android Studio and build the app.
 
-#Usage
+## Usage
 
 Run the Laravel backend server.
 Install the app on an Android device or emulator.
@@ -67,7 +67,7 @@ Log in or create an account to start browsing and buying products.
 Contributions
 Contributions are welcome. Please create a pull request for any changes or improvements.
 
-#License
+## License
 
 This project is licensed under the MIT license.
 
